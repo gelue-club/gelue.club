@@ -13,6 +13,27 @@
   },
   "main": "n/a",
   "version": "0.1.0",
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "gitignore": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "Node",
+    "VisualStudioCode",
+    "SublimeText",
+    "CVS",
+    "Diff",
+    "Vim",
+    "TortoiseGit",
+    "Diff",
+    "Patch"
+  ],
   "dependencies": {
     "gatsby": "^2.15.20",
     "gatsby-image": "^2.2.20",
@@ -51,27 +72,6 @@
     "trash": "^6.0.0",
     "write-file-atomic": "^3.0.0"
   },
-  "prettier": {
-    "endOfLine": "lf",
-    "semi": true,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5"
-  },
-  "gitignore": [
-    "macOS",
-    "Windows",
-    "Linux",
-    "Node",
-    "VisualStudioCode",
-    "SublimeText",
-    "CVS",
-    "Diff",
-    "Vim",
-    "TortoiseGit",
-    "Diff",
-    "Patch"
-  ],
   "keywords": [
     "gelue",
     "club",
