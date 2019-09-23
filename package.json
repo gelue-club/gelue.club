@@ -42,6 +42,20 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
+  "gitignore": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "Node",
+    "VisualStudioCode",
+    "SublimeText",
+    "CVS",
+    "Diff",
+    "Vim",
+    "TortoiseGit",
+    "Diff",
+    "Patch"
+  ],
   "keywords": [
     "gatsby"
   ],
