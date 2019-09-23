@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
@@ -18,6 +17,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
         <article>
           <header>
             <h1
@@ -38,15 +38,8 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
+
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
-          <footer>
-            <Bio />
-          </footer>
         </article>
 
         <nav>
@@ -66,6 +59,7 @@ class BlogPostTemplate extends React.Component {
                 </Link>
               )}
             </li>
+
             <li>
               {next && (
                 <Link to={next.fields.slug} rel="next">
@@ -75,6 +69,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </nav>
+
       </Layout>
     );
   }
@@ -96,7 +91,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD, YYYY", locale: "zh-cn")
         description
       }
     }
