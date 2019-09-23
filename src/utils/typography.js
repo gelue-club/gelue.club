@@ -13,7 +13,7 @@ delete Wordpress2016.googleFonts;
 
 const typography = new Typography(Wordpress2016);
 
-// Hot reload typography in development.
+// 开发时热加载
 if (process.env.NODE_ENV !== `production`) {
   typography.injectStyles();
 }

@@ -65,7 +65,7 @@ class Layout extends React.Component {
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, 在&nbsp;
-          <a href="https://www.gatsbyjs.org">格略社</a>
+          <a href="https://gelue.club">格略社</a>
           &nbsp;结识良师益友，相互增益彼此。
         </footer>
       </div>

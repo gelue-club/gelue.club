@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gelue.club",
   "description": "格略社：结识良师益友，相互增益彼此。",
   "scripts": {
     "start": "npm run develop",
@@ -57,7 +57,9 @@
     "Patch"
   ],
   "keywords": [
-    "gatsby"
+    "gelue",
+    "club",
+    "格略社"
   ],
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "bugs": {
