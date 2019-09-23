@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `格略社`,
     author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `结识良师益友，相互增益彼此。我们坚守多样、开放、五伦、八德的原则，团结一心，崇尚合理，奋发向上，拥抱发展，将格略社建设成为可以寄放、相互守护心灵的精英社团，让每一个社员因加入格略社而感到舒心、骄傲、自豪。我们有责任互相帮助，不求回报。`,
+    siteUrl: `https://gelue.club`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `gelue-club`,
     },
   },
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -57,10 +58,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `格略社`,
+        short_name: `格略社`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#fff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
@@ -75,4 +76,4 @@ module.exports = {
       },
     },
   ],
-}
+};
