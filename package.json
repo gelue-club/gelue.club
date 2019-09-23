@@ -20,6 +20,9 @@
     "tabWidth": 2,
     "trailingComma": "es5"
   },
+  "git": {
+    "core.editor": "code"
+  },
   "gitignore": [
     "macOS",
     "Windows",
