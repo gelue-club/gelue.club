@@ -5,6 +5,7 @@
     "start": "npm run develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
+    "clean": "node ./scripts/clean.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "serve": "gatsby serve"
@@ -40,7 +41,9 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "execa": "^2.0.4",
+    "prettier": "^1.18.2",
+    "trash": "^6.0.0"
   },
   "gitignore": [
     "macOS",
