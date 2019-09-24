@@ -4,12 +4,15 @@
   "scripts": {
     "start": "npm run develop",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "node ./scripts/clean-built.js && gatsby build",
     "reprepare": "node ./scripts/re-prepare",
     "clean": "node ./scripts/clean.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=10.16.0"
   },
   "main": "n/a",
   "version": "0.1.0",
@@ -37,8 +40,11 @@
     "Diff",
     "Patch"
   ],
+  "resolutions": {
+    "minipass": "2.7.0"
+  },
   "dependencies": {
-    "gatsby": "^2.15.20",
+    "gatsby": "^2.15.21",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-feed": "^2.3.13",
     "gatsby-plugin-google-analytics": "^2.1.17",
@@ -85,7 +91,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "private": false,
-  "author": "iYoWei <swzyocowboy@icloud.com>",
+  "author": "iYoWei <swzyocowboy@icloud.com> (https://github.com/iTonyYo)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
