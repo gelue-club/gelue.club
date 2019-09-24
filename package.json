@@ -9,7 +9,8 @@
     "clean": "node ./scripts/clean.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "npx cross-env DEBUG=* node ./scripts/deploy/listr --src './public/**/*' --to '/usr/pro/' --tar './gelue.club.tar'"
   },
   "engines": {
     "node": ">=10.16.0"
@@ -72,12 +73,22 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "archiver": "^3.1.1",
+    "async": "^3.1.0",
     "chalk": "^2.4.2",
+    "cross-env": "^6.0.0",
+    "debug": "^4.1.1",
     "execa": "^2.0.4",
     "license-checker": "^25.0.1",
     "listr": "^0.14.3",
+    "lodash": "^4.17.15",
     "make-dir": "^3.0.0",
+    "minimist": "^1.2.0",
     "prettier": "^1.18.2",
+    "progress": "^2.0.3",
+    "prompts": "^2.2.1",
+    "read-pkg": "^5.2.0",
+    "ssh2": "^0.8.5",
     "trash": "^6.0.0",
     "write-file-atomic": "^3.0.0"
   },
