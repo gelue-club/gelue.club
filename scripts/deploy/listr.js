@@ -22,6 +22,7 @@
 const Listr = require('listr');
 const execa = require('execa');
 const trash = require('trash');
+const tar = require('tar');
 const prompts = require('prompts');
 const argv = require('minimist')(process.argv.slice(2));
 const { resolveCwd } = require('../paths');
@@ -64,13 +65,13 @@ const deployScriptDir = resolveCwd('scripts/deploy');
     {
       title: '打包',
       task: () =>
-        execa('node', [
-          `${deployScriptDir}/tar.js`,
-          '--src',
-          argv.src,
-          '--out',
-          argv.tar,
-        ]),
+        tar.c(
+          {
+            gzip: true,
+            file: argv.tar,
+          },
+          [argv.src]
+        ),
     },
 
     {

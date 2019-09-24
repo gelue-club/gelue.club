@@ -73,7 +73,7 @@ log(`renamedDir: ${paths.renamedDir}`);
 const { localDir, transferred, unpackedDir, renamedDir } = paths;
 
 const cmdCleanRemote = `rm -rf ${transferred} ${unpackedDir} ${renamedDir}`;
-const cmdExtract = `tar -xvf ${transferred} -C ${argv.remoteDir}`;
+const cmdExtract = `tar -xvzf ${transferred} -C ${argv.remoteDir}`;
 const cmdRename = `mv ${unpackedDir} ${renamedDir}`;
 const cmdUnpackAndRename = `${cmdExtract} && ${cmdRename}`;
 
