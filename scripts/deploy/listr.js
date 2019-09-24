@@ -59,7 +59,9 @@ const deployScriptDir = resolveCwd('scripts/deploy');
 
     {
       title: '生产构建',
-      task: () => execa('yarn', ['build']),
+      task: () => execa('yarn', ['build'], {
+        maxBuffer: 10000000000,
+      }),
     },
 
     {
