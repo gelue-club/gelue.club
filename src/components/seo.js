@@ -32,6 +32,7 @@ function SEO({ description, lang, meta, title }) {
           name: `description`,
           content: metaDescription,
         },
+
         {
           property: `og:title`,
           content: title,
@@ -44,6 +45,7 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
+
         {
           name: `twitter:card`,
           content: `summary`,
