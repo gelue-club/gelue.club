@@ -41,9 +41,6 @@
     "Diff",
     "Patch"
   ],
-  "resolutions": {
-    "minipass": "2.7.0"
-  },
   "dependencies": {
     "gatsby": "^2.15.24",
     "gatsby-image": "^2.2.21",
