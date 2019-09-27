@@ -1,0 +1,47 @@
+.clearfix {
+  *zoom: 1;
+  overflow: auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.tags {
+  margin-bottom: 58px;
+}
+
+.tag {
+  cursor: pointer;
+  color: #616060;
+
+  border-radius: 2px;
+  display: inline-block;
+  padding: 3px 5px;
+  transition: 150ms color cubic-bezier(0.3,-0.55,0.1,1.1);
+  text-transform: capitalize;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  float: left;
+  text-decoration: none;
+  box-shadow: none;
+
+  background: #eaeaea;
+}
+
+.tag:hover {
+  color: #000;
+}
+
+.checkAllTags {
+  display: block;
+  box-shadow: none;
+  margin-bottom: 58px;
+}

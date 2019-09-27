@@ -50,6 +50,7 @@ class BlogPostTemplate extends React.Component {
               justifyContent: `space-between`,
               listStyle: `none`,
               padding: 0,
+              marginLeft: 0,
             }}
           >
             <li>
@@ -69,6 +70,21 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </nav>
+
+        <div className="clearfix tags">
+          {post.frontmatter.tags.map((it, index) => {
+            return (
+              <Link
+                key={`key-${index}`}
+                className="tag"
+                to={`/tags/${it}`}
+                rel="tag"
+              >
+                {it}
+              </Link>
+            );
+          })}
+        </div>
       </Layout>
     );
   }
@@ -92,6 +108,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY", locale: "zh-cn")
         description
+        tags
       }
     }
   }
