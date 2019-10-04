@@ -7,7 +7,7 @@ tags: ['周刊', '高启荐', '格略社']
 
 #### 游戏推荐
 
-![](./4.jpg)
+![](./beholder.jpg)
 
 ## 《Beholder》两部曲
 
@@ -31,7 +31,7 @@ tags: ['周刊', '高启荐', '格略社']
 
 #### 音乐推荐
 
-![promophoto1](./promophoto1.jpg)
+![Sold Out --Hawk Nelson](./sold-out-hawk-nelson-cover.jpg)
 
 [《Sold Out --Hawk Nelson》](http://music.163.com/song?id=31010566&userid=344604586)
 
@@ -45,7 +45,7 @@ Hawk Nelson 是来自安大略省彼得堡的加拿大基督教摇滚和流行�
 
 #### 电影推荐
 
-![img3](./img3.jpg)
+![让子弹飞](./rang-zi-dan-fei-cover.jpg)
 
 ## 《让子弹飞》
 
