@@ -93,15 +93,15 @@
     "club",
     "格略社"
   ],
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "hhttps://github.com/gelue-club/gelue.club#readme",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/gelue-club/gelue.club/issues"
   },
   "private": false,
   "author": "iYoWei <swzyocowboy@icloud.com> (https://github.com/iTonyYo)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/gelue-club/gelue.club.git"
   },
   "license": "MIT"
 }
