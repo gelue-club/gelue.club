@@ -16,6 +16,11 @@ const tasks = new Listr([
   },
 
   {
+    title: '清理先前的构建',
+    task: () => execa('node', [`${scriptsDir}/clean-built.js`]),
+  },
+
+  {
     title: '清理包',
     task: () => execa('node', [`${scriptsDir}/clean-packages.js`]),
   },
