@@ -11,16 +11,16 @@
 
 **准备开发环境**
 
-详细参见 [SETUP.md][SETUP.md]。
+详细参见 [SETUP.md][setup.md]。
 
-[SETUP.md]: #
+[setup.md]: #
 
 **安装依赖**
 
-[`gelue.club`][gelue.club] 使用 [`Yarn`][Yarn] 包管理器，执行 `yarn install` 指令安装依赖。
+[`gelue.club`][gelue.club] 使用 [`Yarn`][yarn] 包管理器，执行 `yarn install` 指令安装依赖。
 
 [gelue.club]: https://github.com/gelue-club/gelue.club
-[Yarn]: https://yarnpkg.com/zh-Hans/
+[yarn]: https://yarnpkg.com/zh-Hans/
 
 **开始开发**
 
