@@ -47,7 +47,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.tabCloseButton": "left",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Freshcut Contrast (rainglow)",
   "workbench.statusBar.visible": false,
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
