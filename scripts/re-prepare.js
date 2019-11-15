@@ -27,7 +27,7 @@ const tasks = new Listr([
 
   {
     title: '安装包',
-    task: () => execa('yarn', ['install']),
+    task: () => execa('npm', ['i']),
   },
 
   {

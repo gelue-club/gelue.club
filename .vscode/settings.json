@@ -77,7 +77,7 @@
   "sync.autoUpload": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "npm.packageManager": "yarn",
+  "npm.packageManager": "npm",
   "todohighlight.keywords": [
     {
       "text": "待办：",

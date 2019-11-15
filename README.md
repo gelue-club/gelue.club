@@ -17,10 +17,10 @@
 
 **安装依赖**
 
-[`gelue.club`][gelue.club] 使用 [`Yarn`][yarn] 包管理器，执行 `yarn install` 指令安装依赖。
+[`gelue.club`][gelue.club] 使用 [`NPM`][NPM] 包管理器，执行 `npm i` 指令安装依赖。
 
 [gelue.club]: https://github.com/gelue-club/gelue.club
-[yarn]: https://yarnpkg.com/zh-Hans/
+[NPM]: https://www.npmjs.com/
 
 **开始开发**
 
