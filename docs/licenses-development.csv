@@ -52,7 +52,7 @@
 "nopt@4.0.1","ISC","https://github.com/npm/nopt"
 "npm-normalize-package-bin@1.0.1","ISC","https://github.com/npm/npm-normalize-package-bin"
 "npm-run-path@1.0.0","MIT","https://github.com/sindresorhus/npm-run-path"
-"npm-run-path@4.0.0","MIT","https://github.com/sindresorhus/npm-run-path"
+"npm-run-path@4.0.1","MIT","https://github.com/sindresorhus/npm-run-path"
 "onetime@2.0.1","MIT","https://github.com/sindresorhus/onetime"
 "os-homedir@1.0.2","MIT","https://github.com/sindresorhus/os-homedir"
 "osenv@0.1.5","ISC","https://github.com/npm/osenv"
