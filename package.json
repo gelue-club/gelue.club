@@ -83,7 +83,7 @@
     "progress": "^2.0.3",
     "prompts": "^2.3.0",
     "read-pkg": "^5.2.0",
-    "ssh2": "^0.8.7",
+    "ssh2": "^1.4.0",
     "tar": "^5.0.5",
     "trash": "^6.1.1",
     "write-file-atomic": "^3.0.1"
